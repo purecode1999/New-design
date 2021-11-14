@@ -1,0 +1,62 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+
+body{
+	font-family:16px;
+}
+
+header.topbar {
+    
+}
+
+.topbarbg{
+	background: #f5f5f5;
+}
+
+.topWraper {
+    overflow: hidden;
+}
+
+.container {
+    width: 1170px;
+    padding: 0px 15px;
+    margin: auto;
+}
+
+.phone {
+    width: 200px;
+    float: left;
+    padding: 10px 15px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+.Email {
+    width: 752px;
+    float: left;
+    padding: 10px 15px;
+}
+
+.socail {
+    width: 156px;
+    float: right;
+}
+
+.socail a {
+    display: block;
+    float: left;
+    padding: 10px 15px;
+    border-right: 1px solid #ddd;
+    color: black;
+	transition:.5s;
+}
+
+.socail a:hover{
+	color:orange;
+}
+.socail a:first-child {
+	border-left:1px solid #ddd;
+}
+
